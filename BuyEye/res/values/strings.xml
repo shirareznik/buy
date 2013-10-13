@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="offer_registration">New to BuyEye? Register here</string>
+    <string name="app_name">BuyEye</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="min_age">Min. age:</string>
+    <string name="max_age">Max. age:</string>
+    <string name="title_activity_post">Post</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_compensation">Add compensation!</string>
+    <string name="post_spread_set">15 Users will get this post</string>
+    <string name="post_allow_select_answerer">Allow me to select the answerer</string>
+    <string name="post_buy_in_advance">Buy answer in advance from any</string>
+    <string name="post_add_filter">Add filter or tag</string>
+    <string name="post_submit">Submit Post</string>
+    <string name="post_help_text">My Help Text (correct this)</string>
+    <string name="title_activity_filter">Filter</string>
+    <string name="parseApplication">voAEyoNWc4grAqcvxmVuObkyLWbFTnD4huflMygv</string>
+    <string name="clientKey">KlBSivKd62QGyf9BDXSDWnvK3NKwUotZMfYCMdFK</string>
+    <string name="selectCompensation">How much would you be willing to pay for an answer?</string>
+    <string name="compensationOK">Motivate!</string>
+
+    <string-array name="possible_tags">
+        <item>Sports</item>
+        <item>Jerusalem</item>
+        <item>Music</item>
+        <item>Android</item>
+        <item>Health</item>
+        <item>Math</item>
+        <item>Kindergarten</item>
+        <item>Cars</item>
+        <item>Israel</item>
+        <item>Piano</item>
+    </string-array>
+
+      <string-array name="degree">
+           <item>Highschool and below</item>
+        <item>Bachlor</item>
+        <item>Master</item>
+        <item>Doctor and above</item>
+    </string-array>
+    
+    <string name="title_activity_browse">Browse</string>
+    <string name="title_activity_view_task">ViewTaskActivity</string>
+
+</resources>

@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Post" >
+
+    <!--
+    <AutoCompleteTextView
+        android:id="@+id/post_tags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/max_age_view"
+        android:layout_marginTop="36dp"
+        android:layout_toLeftOf="@+id/compensation"
+        android:ems="10"
+        android:text="Choose up to 5 tags" />
+    -->
+
+    <Button
+        android:id="@+id/compensation"
+        style="@drawable/money_bag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/post_filter"
+        android:layout_alignBottom="@+id/post_filter"
+        android:layout_toRightOf="@+id/post_filter"
+        android:background="@drawable/compensation" />
+
+    <EditText
+        android:id="@+id/editPost"
+        android:layout_width="wrap_content"
+        android:text="Please specify your question or request here!"
+            android:textColor="@color/text_default"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/post_title"
+        android:layout_alignRight="@+id/post_title"
+        android:layout_below="@+id/post_title"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/post_help_text"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/post_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:singleLine="true"
+        android:text="What is the title of your post?"
+        android:textColor="@color/text_default" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/post_tags"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editPost"
+        android:layout_below="@+id/editPost"
+        android:layout_marginTop="24dp"
+        android:completionThreshold="1"
+        android:ems="10"/>
+
+    <!-- android:text="Could you tag your post?" 
+        android:textColor="@color/text_default" -->
+    
+    <Button
+        android:id="@+id/post_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/post_tags"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/filter" />
+
+    <TextView
+        android:id="@+id/post_potential_viewers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_tags"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/post_spread_set" />
+
+    <Button
+        android:id="@+id/post_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/compensation"
+        android:layout_alignBottom="@+id/compensation"
+        android:layout_toRightOf="@+id/post_potential_viewers"
+        android:background="@drawable/submit" />
+
+</RelativeLayout>
